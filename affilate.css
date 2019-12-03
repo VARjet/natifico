@@ -327,6 +327,8 @@ color: #fff;
 .lt-1{
     width: 55px;
     font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+font-weight: normal;
     display: flex;
     align-items: center;
 }
@@ -336,6 +338,8 @@ color: #fff;
 .lt-2{
     width: 95px;
     font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+font-weight: normal;
     display: flex;
     align-items: center;
 }
@@ -346,6 +350,8 @@ color: #fff;
 .lt-3{
     width: 115px;
     font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+font-weight: normal;
     margin: 0px 0 0 20px;
     display: flex;
     align-items: center;
@@ -358,6 +364,8 @@ padding: 0 0 0 15px;
     line-height: 20px;
     margin: 0 0 0 15px;
     font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+font-weight: normal;
 }
 .lt-next{
     display: flex;
