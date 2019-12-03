@@ -1,7 +1,18 @@
-@media screen and 
+@media screen and (-webkit-min-device-pixel-ratio: 2), 
 (min-resolution: 192dpi) and (max-width: 6500px) { 
+ 
+    .topslider-2{
+        margin: 65px auto 0 !important;
+    }
+    .top-offers{
+        padding: 22px 14px;
+    }
     .h1-2{
-        margin: 0 auto 15px;
+        margin: 0 auto 25px;
+        padding: 32px 24px 30px !important;
+    }
+    .h1-2-2{
+        padding: 52px 24px 30px !important;
     }
     .blog-up-h1{
         padding: 17.5px 0 22.5px 0;

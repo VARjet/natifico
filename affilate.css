@@ -295,7 +295,7 @@ color: #fff;
     line-height: 26px;
     text-align: center;
     color: #fff;
-    max-width: 135px;
+    max-width: 150px;
 }
 .topslider-1180-right h1{
     display: none;
@@ -327,25 +327,42 @@ color: #fff;
 .lt-1{
     width: 55px;
     font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    align-items: center;
+}
+.lt-1 span{
+    padding: 0 10px 0 0;
 }
 .lt-2{
     width: 95px;
     font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    align-items: center;
 }
-.lt-1 span{
 
-    margin: 4px 0px 0px -20px;
-}
 .lt-2 span{
-    padding: 10px 0px 0px 13px;
-    position: absolute;
+    padding: 0 0px 0 10px;
 }
 .lt-3{
     width: 115px;
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0px 0 0 20px;
+    display: flex;
+    align-items: center;
 }
-
+.lt-3 span{
+padding: 0 0 0 15px;
+}
+.next-line{
+    border-bottom: 2px solid red;
+    line-height: 20px;
+    margin: 0 0 0 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.lt-next{
+    display: flex;
+    align-items: center;
+}
 .shkala{
     position: relative;
     max-width: 575px;
@@ -492,12 +509,15 @@ color: #fff;
     .line-big{
         margin: 30px auto;
     }
+    .top-offers{
+        padding: 0 14px;
+    }
     .line {
         display: flex;
         align-items: center;
         margin: 0 auto;
         max-width: 550px;
-        padding: 0 14px;
+        padding: 0 0;
         flex-wrap: wrap;
         justify-content: space-between;
     }
@@ -507,13 +527,7 @@ color: #fff;
         -webkit-order: 1;
         order: 1;
     }
-    .lt-1 span {
-        margin: 4px 0px 0px 0px;
-        padding: 0px;
-        height: 32px;
-        width: 111px;
-        position: absolute;
-    }
+
     .shkala {
         margin: 8px 0 8px 0;
         order: 2;
@@ -537,18 +551,14 @@ color: #fff;
         -webkit-order: 1;
         order: 1;
     }
-    .lt-3 span{
-        margin: 8px 0 0px 12px;
-    height: 35px;
-    position: absolute;
-    float: left;
-    }
+
     .shkala, .shkala2, .shkala3, .shkala4, .shkala5 {
         max-width: 700px !important;
         width: 100%;
     }
 }
 @media screen and (max-width:700px){
+
     .blog-up-h1 {
         padding: 54px 0px 17px 0px !important;
      
@@ -589,7 +599,7 @@ color: #fff;
         line-height: 26px;
         text-align: center;
         color: #fff;
-        max-width: 100px;
+        max-width: 120px;
     }
     .blog-buttons{
         justify-content: center;
