@@ -167,9 +167,7 @@ width: 138px;
 .why-exactly-in-img {
     margin: 5%;
 }
-.why-exactly-in-text {
 
-}
 .why-exactly-in h2{
     font-style: normal;
     font-weight: bold;
@@ -424,7 +422,7 @@ font-weight: normal;
 
 
 
-@media (max-width:1130px){
+@media screen and (max-width:1130px){
     .topslider-1180-right h1 {
         max-width: 10000px;
         display: block !important;
@@ -436,14 +434,14 @@ font-weight: normal;
 }
 
 
-@media (max-width:1140px){
+@media screen and (max-width:1140px){
     .topslider-2 {
         margin: 50px auto -22px;
     }
 
 }
 
-@media (max-width:1179px){
+@media screen and (max-width:1179px){
 
     .toplider-2-button {
         margin: 0 auto;
@@ -503,7 +501,7 @@ font-weight: normal;
     margin: -20px auto 0;
 }
 }
-@media (max-width:775px){
+@media screen and (max-width:775px){
     .contacts-for{
         justify-content: center;
         flex-wrap: wrap;
