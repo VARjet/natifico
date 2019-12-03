@@ -374,11 +374,15 @@ font-weight: normal;
 .shkala{
     position: relative;
     max-width: 575px;
+
     width: 100%;
     min-height: 43px;
     height: 100%;
     background: linear-gradient(270deg, #A20F63 2.08%, #C94390 100%), #C94390;
     border-radius: 4px;
+}
+.shkala{
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .shkala2{
     max-width: 549px !important; 
