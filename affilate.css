@@ -431,6 +431,7 @@ font-weight: normal;
         text-align: -webkit-center;
         font-size: 50px;
         width: 100%;
+        text-align: center;
     }
 }
 
@@ -549,10 +550,18 @@ font-weight: normal;
         font-family: 'Roboto Condensed', sans-serif;
     }
     .lt-1 img{
-        margin: 1px 15px 0px 19px;
+        margin: 1px 15px 0px 0px;
+        width: 24px;
+        height: 24px;
     }
     .lt-2{
         max-width: 35px;
+        font-family: 'Roboto Condensed', sans-serif;
+        width: 100%;
+    }
+    .lt-2 img{
+        width: 35px;
+        height: 35px;
         font-family: 'Roboto Condensed', sans-serif;
         width: 100%;
     }
