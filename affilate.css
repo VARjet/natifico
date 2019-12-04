@@ -513,6 +513,7 @@ font-weight: normal;
     .lt-next img {
         width: 33px;
         height: 33px;
+
     }
     .contacts-for-left h2{
         color:#C94390;
@@ -885,8 +886,8 @@ font-weight: normal;
       padding: 0 14px;
     }
     .topslider-1180 {
+        margin: -70px auto 0;
         max-width: 1180px;
-        margin: -60px auto;
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap-reverse;
@@ -895,7 +896,7 @@ font-weight: normal;
         width: 100%;
     }
     .topslider-1180-right h1{
-        display: block;
+        display: block !important;
     }
 
     .topslider-1180-right-div {
