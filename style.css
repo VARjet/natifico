@@ -1782,7 +1782,7 @@ html[xmlns] .clearfix {display: block;}
 /*
 	* > 568px e < 768
 */
-@media (min-width: 35.5em) and (max-width: 48em) {
+@media (min-width: 5.5em) and (max-width: 48em) {
 .col-sm-1
 { width:100% !important;}
 .main{
