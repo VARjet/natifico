@@ -912,7 +912,7 @@ font-weight: normal;
 @media only screen and (max-width: 1140px){
 .topslider-1180-right {
     min-height: 590px !important;
-    width: 80% ;
+    width: 60% ;
     min-height: 485px;
     justify-content: center;
 }
