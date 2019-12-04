@@ -886,7 +886,7 @@ font-weight: normal;
     }
     .topslider-1180 {
         max-width: 1180px;
-        margin: 0 auto;
+        margin: -60px auto;
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap-reverse;
