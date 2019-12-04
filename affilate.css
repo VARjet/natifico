@@ -417,7 +417,31 @@ font-weight: normal;
 
 }
 
-
+@media screen and (max-width:1179px){
+    .topslider-2 {
+        margin: 20px auto 0;
+        width: 100%;
+        padding: 100px 0;
+        background: radial-gradient(71.18% 71.18% at 50% 100%, #314D70 0%, #172B43 100%), #172B43;
+        BACKGROUND-IMAGE: url(./images/fon.svg);
+        background-size: cover;
+    }
+    .topslider-1180 h1 {
+        font-family: 'Roboto Slab', serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    .topslider-1180-right {
+        width: 53%;
+        min-height: 580px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
 @media screen and (max-width:1130px){
     .h1-2{
         margin: 0 auto 30px;
