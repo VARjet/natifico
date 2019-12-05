@@ -1,4 +1,5 @@
 @media screen and (-webkit-min-device-pixel-ratio: 2), (min-width: 1500px) and (min-resolution: 192dpi) {
+    
     .h1-2{
         margin: 0 auto 19.5px;
     }
@@ -445,4 +446,29 @@
  
 }
 
+@media screen and (min-device-pixel-ratio: 2), (max-width: 800px) and (min-resolution: 192dpi) {
+    .languages {
+        display: none;
+    }
+    .wrapper {
+        -webkit-display: block;
+    }
+}
 
+@media screen and (-webkit-min-device-pixel-ratio: 2), (max-width: 800px) and (min-resolution: 192dpi) {
+    .languages {
+        display: none;
+    }
+    .wrapper {
+        -webkit-display: block;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0), (max-width: 800px) {
+    .languages {
+        display: none;
+    }
+    .wrapper {
+        -webkit-display: block;
+    }
+}

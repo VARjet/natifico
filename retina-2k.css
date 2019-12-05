@@ -72,6 +72,7 @@
   }
 .wrapper{
   display: none ;
+  -webkit-display: none;
 }
 #brrr123{
   display: none;
@@ -474,7 +475,7 @@ color: #FFFFFF;
   text-align: center;
   font-family: 'Roboto Slab', serif;
   padding: 32.5px 0 6.5px 0;
-  font-size: 20.8px;
+  font-size: 16px;
 }
 
 .blog{
@@ -612,11 +613,10 @@ line-height: 11.7px;
 
 
 
-
-
 .view {
   width: 247px;
   height: 167.7px;
+  margin: 10px;
   float: left;
   border: 1px solid #fff;
   overflow: hidden;
@@ -1557,6 +1557,7 @@ width: 100%;
 }
 .wrapper{
   display: block ;
+  -webkit-display: block;
 }
   .main {
     height: 50px;
@@ -1983,6 +1984,7 @@ textarea:focus {
 }
 .wrapper{
   display: block ;
+  -webkit-display: block;
 }
   .nat-reg {
     background-size: 30.5px;
@@ -2281,6 +2283,7 @@ max-width: 800px;
 .wrapper{
   display: block ;
   height: 50px;
+  -webkit-display: block;
 }
 .main{
   height: 50px;
