@@ -664,7 +664,14 @@ height: 50px;
   
   
   
-  
+  .blog-up-h1 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    padding: 32.5px 0 6.5px 0;
+    font-size: 18px;
+    max-width: 300px;
+    width: 100%;
+}
   /* центральный слайдер */
   .our-partners .owl-item .active{
     margin: -9px !important;
@@ -674,9 +681,20 @@ height: 50px;
     margin: 0 auto;
     text-align: center;
   }
+  .we-are h1{
+    margin: -30px auto 10px;
+  }
+  .men-text h1{
+    margin: -10px 0 0 0;
+  }
+  .our-team-h1{
+    margin: -40px auto 10px !important;
+  }
   .our-partners h1{
+    
     padding: 45px 0 15px;
     font-family: 'Roboto Slab', serif;
+    font-size: 18px;
   }
   .our-partners .owl-theme .owl-nav{
     display: flex;
@@ -1231,10 +1249,12 @@ height: 50px;
     display: none;
   }
   .slidecenter2{
-    display: block;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+    max-width: 350px;
+    width: 100%;
   }
   .our-partners .no-js .owl-carousel, .our-partners .owl-carousel.owl-loaded {
     display: none !important;
